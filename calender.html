@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>カレンダー</title>
+    <link rel="stylesheet" type="text/css" href="chat.css" />
+  </head>
+  <body>
+    <button id="prev" type="button">前の月</button>
+    <button id="next" type="button">次の月</button>
+    <div id="calendar"></div>
+
+    <div id="inputForm" style="display: none">
+      <h3>
+        <span id="selectedMonth"></span>月<span id="selectedDate"></span>日
+      </h3>
+      <textarea id="eventDetails" rows="4" cols="50"></textarea>
+      <button id="saveEvent">保存</button>
+    </div>
+
+    <script src="chat.js"></script>
+  </body>
+</html>
