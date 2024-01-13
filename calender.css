@@ -1,0 +1,61 @@
+h1 {
+  font-size: 24px;
+}
+
+#calendar table td {
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#calendar table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 25px;
+}
+
+td:first-child {
+  color: red;
+}
+
+td:last-child {
+  color: royalblue;
+}
+
+td.is-disabled {
+  color: #ccc;
+}
+
+#inputForm {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+#currentMemo {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  min-height: 50px;
+  background-color: #fff;
+}
+
+#inputForm textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.memo {
+  font-size: 0.8em;
+  color: gray;
+}
